@@ -50,11 +50,11 @@ Inspired by design of blog.jse.li
 ## Config of the Demo Site
 
 ```toml
-baseURL = "https://athul.github.io/archie/"
+baseURL = "/"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
+title = "Orglike"
+theme="orglike"
+copyright = "© jscottgray"
 # Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
@@ -65,24 +65,7 @@ paginate=5 # articles per page
 [params]
 	mode="auto" # color-mode → light,dark or auto
 	featherIconsCDN=true
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
-
-# Social Tags
-
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/athul/archie"
-
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://github.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
+	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/jscottgray/orglike)"
 
 # Main menu Items
 
