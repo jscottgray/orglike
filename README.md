@@ -42,7 +42,7 @@ tags: [tag names] (optional)
 
 ## Credits
 
-Forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
+Forked from [Archie Theme](https://github.com/athul/archie.git) which was forked from [Ezhil Theme](https://github.com/vividvilla/ezhil) and Licensed under MIT License
 Inspired by design of blog.jse.li
 
 ---
