@@ -2,9 +2,18 @@
 	<div class="main">
 		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 	</div>
-	<nav>
-		{{ range .Site.Menus.main }}
-		<a href="{{ .URL }}">{{ .Name }}</a>
-		{{ end }}
-	</nav>
+	<div class="headernav">
+		<nav>
+			{{ range .Site.Menus.main }}
+			<a href="{{ .URL }}">{{ .Name }}</a>
+			{{ end }}
+		</nav>
+		<nav class="nav social">
+			<ul class="flat">
+				{{- range $index, $key := .Site.Params.Social -}}
+				<a href="{{ $key.url }}" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
+				{{- end -}}
+			</ul>
+		</nav>
+	</div>
 </header>

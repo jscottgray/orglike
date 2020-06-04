@@ -44,6 +44,16 @@ blockquote {
   padding-left: 1em;
 }
 
+.headernav {
+  align-items: true;
+  vertical-align: middle;
+}
+
+nav {
+  display: inline-block;
+  /* flex-direction: row; */
+}
+
 a {
   /* border-bottom: 3px solid var(--maincolor); */
   color: inherit;
@@ -62,15 +72,15 @@ a:hover {
 
 ul {
   list-style: none;
-  padding-left: 2ch;
+  padding-left: 0;
 }
-ul li {
+/* ul li {
   text-indent: -2ch;
-}
-ul li::before {
+} */
+/* ul li::before {
   content: "* ";
   font-weight: bold;
-}
+} */
 
 /* Images */
 img {
