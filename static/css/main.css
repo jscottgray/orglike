@@ -202,7 +202,8 @@ h6::before {
 
 /* Footer */
 footer {
-  margin-top: 1em;
+  text-align: right;
+  /* margin-top: 1em; */
 }
 
 /* Common */
