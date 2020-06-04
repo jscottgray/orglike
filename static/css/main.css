@@ -6,7 +6,7 @@
   --bordercl: rebeccapurple;
   --callouctcolor: dodgerblue;
   --hovercolor: navy;
-  --darkMaincolor: #50fa7b;
+  --darkMaincolor: red;
 }
 html {
   color: #232333;
@@ -50,7 +50,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  background-color: var(--hovercolor);
+  background-color: var(--maincolor);
   color: #fff;
 }
 

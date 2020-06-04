@@ -1,46 +1,37 @@
-baseURL = "https://example.com"
+baseURL = "/"
 languageCode = "en-us"
-title = "Archie"
-theme="archie"
-copyright = "© Athul"
+title = "jgray.dev"
+theme="orglike"
+copyright = "© jgray"
+# Code Highlight
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+
+# Your Google analytics code.
+googleAnalytics = "UA-123"
+
+paginate=5 # articles per page
+
 [params]
-	mode="auto"
+	mode="auto" # color-mode → light,dark or auto
 	featherIconsCDN=true
-	subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+
+# Social Tags
 
 [[params.social]]
 name = "GitHub"
 icon = "github"
-url = "https://github.com/athul/archie"
+url = "https://github.com/jscottgray"
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://github.com/athulcajay/"
-
-[[params.social]]
-name = "GitLab"
-icon = "gitlab"
-url = "https://gitlab.com/athul/"
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
+# Main menu Items
 
 [[menu.main]]
 name = "About"
 url = "/about"
-weight = 3
+weight = 1
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 4
+weight = 2
